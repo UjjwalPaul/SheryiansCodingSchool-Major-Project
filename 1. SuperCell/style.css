@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    width: 75%;
+    height: 11%;
+    background-color: black;
+    justify-content: space-between;
+    transform: translateX(15%);
+    position: fixed;
+    z-index: 10;
+}
+nav li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+nav img{
+    width: 30px;
+    background-color: black;
+}
+nav> .links{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav> .links a{
+    color: #989090;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links img{
+    height: 50px;
+    width: 50px;
+}
+
+nav> .nav-btn{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+nav> .nav-btn>li>a:hover{
+    filter: brightness(2);
+}
+
+nav> .nav-btn>li:first-child>a{
+    color: black;
+    background-color: #989090;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 20px 8px 10px 0px;
+    padding: 8px 15px;
+
+}
+
+nav> .nav-btn>li:first-child>a:hover{
+    background-color: aliceblue;
+}
+
+nav> .nav-btn>li>a>i{
+    color: #989090;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-top: 60%;
+    padding-bottom: 60%;
+    border-left: 1px solid #989090;
+    
+}
+
+nav> .nav-btn>li>a>i:hover{
+    color: white;
+}
+
+nav .links a:hover{
+    color: aliceblue;
+}
+
+.war-part{
+    background-image: url(./frontpage_hero.bca9ba5a.webp);
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 243, 243);
+
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.war-part>div{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.war-part>div>h1{
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+}
+.war-part>div>p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.war-part>button{
+    padding: 15px 20px;
+    background-color: #2d90ec;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    transform: translateX(14%);
+    width: 80%;
+    gap: 3.9%;
+    margin-top: 5%;
+}
+.images div{
+    width: 546px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.images img{
+    width: 100%;
+    height: 80%;
+}
+.images h1{
+    color: rgb(255, 53, 53);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.images p{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.news{
+    transform: translateX(100vh);
+    padding: 15px 15px;
+    background-color: #2d90ec;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.games{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    
+    background-color: #3d88ce;
+}
+.games p{
+    transform: translateX(-55px);
+}
+.games div{
+    width: 40%;
+}
+.games img{
+    width: 90%;
+    
+}
+
+.games>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: sans-serif;
+}
+
+.games>.text>h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+.games>.text>p{
+    width: 75%;
+    color: aliceblue;
+}
+.games>.text>button{
+    width: 20%;
+    padding: 15px 15px ;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+.careers{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+   
+    background-color: #2d90ec;
+}
+.careers div{
+    width: 40%;
+}
+.careers p{
+    transform: translateX(-55px);
+}
+.careers img{
+    width: 40%; 
+}
+
+.careers>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: sans-serif;
+}
+
+.careers>.text>h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+.careers>.text>p{
+    width: 80%;
+    color: aliceblue;
+}
+.careers>.text>button{
+    width: 30%;
+    padding: 15px 15px ;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.artical{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(253, 253, 255);
+    font-family: sans-serif;
+}
+.artical div{
+    width: 40%;
+    height: 90%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.artical h1,p,a{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.artical h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.artical p{
+    font-size: 15px;
+}
+.artical img{
+    width: 100%;
+    height: 350px;
+}
+ 
+
+.footer{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.footer>div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 3%;
+}
+.footer>div:first-child>.social{
+    color: aliceblue;
+    font-size: 30px;
+}
+.footer>div:first-child>.social h1{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.footer>div:first-child>.app-logo img{
+    width: 200px;
+    height: 60px;
+}
+.footer>div:last-child{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    border-top: 1px solid rgb(56, 55, 55);
+    margin-top: 5%;
+}
+.footer>div:last-child>.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 2%;
+}
+.footer>div:last-child>.links>a{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 0;
+}
+.footer>div:last-child>.about{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.footer>div:last-child>.about>div:first-child{
+    color: rgb(100, 102, 103);
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.footer>div:last-child>.about>div:last-child>img{
+    height: 60px;
+}
